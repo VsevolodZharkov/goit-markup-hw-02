@@ -91,13 +91,6 @@ body {
     line-height: 1,87;
     letter-spacing: 3%; 
 }
-.feature-list .img {
-    color: white;
-}
-.feature-list .img:hover,
-.feature-list .img:focus {
-    color:#2196F3;
-}
 .wite {
     background-color: #E5E5E5;
 }
