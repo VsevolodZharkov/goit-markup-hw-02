@@ -57,6 +57,7 @@ body {
     color: #2196F3;
 
 }
+
 /* цвет страницы*/
 
 .section .section-zag {
@@ -83,7 +84,20 @@ body {
     line-height: 1,14;
     letter-spacing: 3%; 
 }
-
+.feature-list .text {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,87;
+    letter-spacing: 3%; 
+}
+.feature-list .img {
+    color: white;
+}
+.feature-list .img:hover,
+.feature-list .img:focus {
+    color:#2196F3;
+}
 .wite {
     background-color: #E5E5E5;
 }
@@ -104,18 +118,31 @@ body {
 .button.primary {
     color: #FFFFFF;
     background-color: #2196F3;
+    cursor: pointer;
 }
 .button.secondary {
     color: #2196F3;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .buttonzz.primary {
     color: #FFFFFF;
     background-color: #2196F3;
+    cursor: pointer;
 }
 .buttonzz.secondary {
     color: #212121;
     background-color: #FFFFFF;
+    cursor: pointer;
+}
+/* футер*/
+
+.rgb.link{
+    color:rgb(255, 255, 255, 60%);
+}
+.rgb.link:hover,
+.rgb.link:focus {
+    color: #2196F3;
 }
 
