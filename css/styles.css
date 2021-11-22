@@ -36,7 +36,7 @@ body {
     list-style: none;
 } для сбросывания стиля к примера на точках в списке*/
 .site-nav .link {
-    color: #212121;
+    color: var(--text-color-zag);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -98,6 +98,23 @@ body {
 .grey {
     background-color: var(--fon-background-color-two);
 }
+.Portfoll {
+    background-color: var(--fon-background-color);
+}
+/*.ridik {
+    color: var(--background-color);
+}
+.ridik :hover,
+.ridik :focus{
+    color: var(--accent-color);
+}*/
+.ridik > .title {
+    color: var(--text-color-zag)
+}
+.ridik > .text {
+    color: var(--primary-text-color);
+}
+
 
 /* кнопки*/
 .button {
@@ -105,30 +122,34 @@ body {
     background-color: var(--accent-color);
 }
 
-/* кнопки*/
+
 /*button{
     font-family: inherit;
 }*/
 .button.primary {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--background-color);
+    background-color: var(--accent-color);
     cursor: pointer;
 }
 .button.secondary {
-    color: #2196F3;
-    background-color: #FFFFFF;
+    color: var(--accent-color);
+    background-color: var(--background-color);
     cursor: pointer;
 }
 
 .buttonzz.primary {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--background-color);
+    background-color:var(--accent-color);
     cursor: pointer;
 }
 .buttonzz.secondary {
-    color: #212121;
-    background-color: #FFFFFF;
+    color: var(--text-color-zag);
+    background-color: var(--background-color);
     cursor: pointer;
+}
+.buttonzz.secondary:hover,
+.buttonzz.secondary:focus {
+    background-color:var(--accent-color);
 }
 /* футер*/
 
@@ -137,6 +158,6 @@ body {
 }
 .rgb.link:hover,
 .rgb.link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
