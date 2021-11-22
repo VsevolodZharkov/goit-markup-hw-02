@@ -101,19 +101,22 @@ body {
 .Portfoll {
     background-color: var(--fon-background-color);
 }
-/*.ridik {
+.ridik {
     color: var(--background-color);
+    border: 1px solid var(--accent-color);
 }
 .ridik :hover,
-.ridik :focus{
+.ridik :focus {
     color: var(--accent-color);
-}*/
+    border: 1px solid var(--accent-color);
+}
 .ridik > .title {
     color: var(--text-color-zag)
 }
 .ridik > .text {
     color: var(--primary-text-color);
 }
+
 
 
 /* кнопки*/
@@ -151,6 +154,7 @@ body {
 .buttonzz.secondary:focus {
     background-color:var(--accent-color);
 }
+
 /* футер*/
 
 .rgb.link{
