@@ -119,10 +119,17 @@ text-transform: uppercase;
     border: 1px solid var(--accent-color);
 }
 .ridik > .title {
-    color: var(--text-color-zag)
+    color: var(--text-color-zag);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
 }
 .ridik > .text {
     color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+
 }
 .point > .employee {
     color: var(--text-color-zag);
