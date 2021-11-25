@@ -11,6 +11,7 @@
     --background-color: #FFFFFF;
     --fon-background-color: #E5E5E5;
     --fon-background-color-two: #F5F4FA;
+    --fon-background-color-footer: #2F303A;
 }
 body {
     color: var(--primary-text-color);
@@ -31,9 +32,11 @@ body {
 .logo-cap {
     color: var(--accent-color);
 }
-
-/*.list {
+.point {
     list-style: none;
+}
+/*.list {
+    list-style: none;ъ
 } для сбросывания стиля к примера на точках в списке*/
 .site-nav .link {
     color: var(--text-color-zag);
@@ -64,7 +67,9 @@ body {
 }
 
 /* цвет страницы*/
-
+.title.uppercase {
+text-transform: uppercase; 
+}
 .section .section-zag {
     color: var(--text-color-zag);
     font-weight: 700;
@@ -101,6 +106,9 @@ body {
 .Portfoll {
     background-color: var(--fon-background-color);
 }
+.color.footer {
+    background-color: var(--fon-background-color-footer);
+}
 .ridik {
     color: var(--background-color);
     border: 1px solid var(--accent-color);
@@ -116,7 +124,18 @@ body {
 .ridik > .text {
     color: var(--primary-text-color);
 }
-
+.point > .employee {
+    color: var(--text-color-zag);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.point > .texticon {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+}
 
 
 /* кнопки*/
@@ -139,6 +158,12 @@ body {
     background-color: var(--background-color);
     cursor: pointer;
 }
+.button.edit {
+    color: var(--background-color)
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+}
 
 .buttonzz.primary {
     color: var(--background-color);
@@ -158,7 +183,7 @@ body {
 /* футер*/
 
 .rgb.link{
-    color:rgb(255, 255, 255, 60%);
+    color:rgba(255, 255, 255, 0.6);
 }
 .rgb.link:hover,
 .rgb.link:focus {
