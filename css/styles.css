@@ -29,6 +29,15 @@ body {
     line-height: 1.2;
     text-decoration: none;
 }
+.logo.wite {
+    background-color: var(--fon-background-color-footer);
+    color: var(--background-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
 .logo-cap {
     color: var(--accent-color);
 }
@@ -170,6 +179,7 @@ text-transform: uppercase;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
+    font-family: inherit;
 }
 
 .buttonzz.primary {
@@ -191,9 +201,16 @@ text-transform: uppercase;
 
 .rgb.link{
     color:rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 .rgb.link:hover,
 .rgb.link:focus {
     color: var(--accent-color);
+}
+.pfooter {
+    color: var(--background-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
