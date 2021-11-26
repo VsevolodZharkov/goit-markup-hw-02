@@ -178,23 +178,36 @@ text-transform: uppercase;
     color: var(--background-color)
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.9;
     font-family: inherit;
 }
+
 
 .buttonzz.primary {
     color: var(--background-color);
     background-color:var(--accent-color);
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
 }
 .buttonzz.secondary {
     color: var(--text-color-zag);
     background-color: var(--background-color);
     cursor: pointer;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
 }
 .buttonzz.secondary:hover,
 .buttonzz.secondary:focus {
     background-color:var(--accent-color);
+    color: var(--background-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 /* футер*/
